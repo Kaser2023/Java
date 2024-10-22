@@ -7,8 +7,11 @@ import java.util.Random;
 
 import javax.swing.JPanel;
 
+
+
+
 public class GamePanel  extends JPanel implements ActionListener{
-	
+
 	static final int Screen_Width = 600; // ok
 	static final int Screen_Height = 600; // ok
 	static final int Unit_Size = 25; // ok 
