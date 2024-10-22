@@ -1,7 +1,19 @@
 package Sudoko_Game;
 class Main {
 
-	  private static  final int  Grid_Size = 9;
+
+//# ----------------------------------------------------------------
+//# Coded by: Abdullah Alqurashi.
+//# ----------------------------
+//# Git-Hub: https://github.com/Kaser2023
+//# Linked-In: https://www.linkedin.com/in/abdullah-alqurashi-a3777a224/
+//# Date: 18.Rabi'a Alakhir. 1446 -  2024.Oct.21
+//	Time: 5:01 AM
+//# ----------------------------------------------------------------
+//
+
+
+	private static  final int  Grid_Size = 9;
 	  public static void main(String[] args) {
 	int[][] board = { 
 	    {5, 3, 0, 0, 7, 0, 0, 0, 0},
@@ -14,6 +26,7 @@ class Main {
 	    {0, 0, 0, 4, 1, 9, 0, 0, 5},
 	    {0, 0, 0, 0, 8, 0, 0, 7, 9}
 	};
+
 
 	    int[][] boardUnDone = new int[][] {
 	        {2, 8, 3, 0, 0, 7, 0, 0, 0},
